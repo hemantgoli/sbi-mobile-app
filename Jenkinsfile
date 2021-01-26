@@ -4,7 +4,7 @@ pipeline {
         stage ('Git Checkout') {
             steps {
                 bat "dir"
-                CurrentBuild.result
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
             }
         }
         stage ('mvn build'){
