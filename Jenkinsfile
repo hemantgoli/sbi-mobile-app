@@ -3,13 +3,12 @@ pipeline {
     stages {
         stage ('Git Checkout') {
             steps {
-                bat "dir"
-                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                echo "This Build number is : ${env.BUILD_ID}"
             }
         }
         stage ('mvn build'){
             steps{
-                bat "dir"
+                echo "The Build Ownaer is:  ${env.CHANGE_AUTHOR_DISPLAY_NAME}"
             }
         }
         stage ('test'){
