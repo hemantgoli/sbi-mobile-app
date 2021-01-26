@@ -4,6 +4,7 @@ pipeline {
         stage ('Git Checkout') {
             steps {
                 bat "dir"
+                CurrentBuild.result
             }
         }
         stage ('mvn build'){
