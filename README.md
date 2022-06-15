@@ -2,7 +2,7 @@
 <h1>2. Migrate your jenkins project & global level permission with out changes</h1>
 <h1>3. Anonymous user will be desible permanently</h1>
 <h1> Before </h1>
-![ScreenShot](Matrix_Auth.png)
+![plot](./Matrix_Auth.png)
 
 <h1> After
  ![image](https://user-images.githubusercontent.com/71164288/173736995-3f158a5b-592d-4cd0-bf11-0545722f81fb.png)
