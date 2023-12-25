@@ -7,7 +7,7 @@ pipeline {
             }
             post {
                 always {
-                    echo "post os working"
+                    echo "post os workingsdfbasdfn,sn"
                 }
             }
         }
