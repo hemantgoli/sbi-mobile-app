@@ -21,6 +21,16 @@ pipeline {
                 }
             }
         }
+        stage('ANT') {
+            steps {
+                echo "ant"
+            }
+            post {
+                always {
+                    echo "post os working"
+                }
+            }
+        }
         stage('Deploy') {
             steps {
                echo "deploy"
